@@ -174,7 +174,7 @@ export function GameProvider({ children }) {
   // Socket connection
   useEffect(() => {
     console.log('Initializing socket connection...');
-    const socket = io('https://vishal-backend-whpe.onrender.com', {
+    const socket = io('https://vishal-backend-xs38.onrender.com', {
       transports: ['websocket'],
       reconnection: true,
       reconnectionAttempts: 5,
